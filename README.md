@@ -176,16 +176,6 @@ streamlit run app.py
 
 ---
 
-## 🔒 Sécurité
-
-- **SSL/TLS** : Vérification des certificats via `certifi` pour les appels API BCE/FRED
-- **XSS** : Échappement HTML des saisies utilisateur dans les rapports exportés
-- **Validation des entrées** : Contrôle des types et bornes via les widgets Streamlit natifs
-- **Pas de persistance** : Aucune base de données, aucune donnée stockée côté serveur (session uniquement)
-- **Pas d'authentification** : L'application ne gère pas de données personnelles sensibles
-
----
-
 ## 📊 Détail des modes de calcul
 
 ### 1. Client Privé — Art. L.441-10 C.Com
