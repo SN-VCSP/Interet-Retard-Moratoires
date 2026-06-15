@@ -264,26 +264,6 @@ streamlit run app.py
 
 ---
 
-## 📝 Changelog
-
-### v2.1.0 (Mai 2026)
-- Export HTML compact optimisé pour impression A4 (styles @page, grille 3 colonnes, police réduite)
-- Renommage du bouton export : "Télécharger pour impression"
-- Renommage du calculateur d'échéance : "Outil d'aide au calcul d'échéance"
-- Libellé date de paiement précisé : "Date de paiement effectif ou date du jour"
-
-### v2.0.0 (Janvier 2026)
-- Refonte complète de l'interface (design Apple / VINCI)
-- Calcul segmenté par période avec changement de taux BCE
-- Export Excel stylisé (openpyxl)
-- Double source BCE (API BCE + FRED fallback)
-- Calculateur d'échéance pour marchés publics
-- Historique des calculs en session
-- Correction sécurité SSL (utilisation de certifi)
-- Protection XSS sur les exports HTML
-
----
-
 ## 📄 Licence
 
 Application propriétaire — © 2026 Eurovia / VINCI Construction.
